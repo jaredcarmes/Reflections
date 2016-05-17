@@ -16,7 +16,7 @@ use one instead of another?
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Fill in your answer here
+    If something were to happen where the last known state was changed in a way that you didn't approve, having the commit locally would allow you to tweak the code that you like with the remote commit. And merge as necessary
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
