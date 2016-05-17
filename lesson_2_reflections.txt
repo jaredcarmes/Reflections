@@ -23,6 +23,8 @@ How do the diagrams help you visualize the branch structure?
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+	
+	Only code that is mutually added/changed between commits is merged into the master branch. Anything else is disgarded or left alone. You represent it in that way to demonstrate how the tip of the master branch is affected by the deleted "coins" branch.
 
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
